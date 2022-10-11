@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <html>
+<div >
+    <h1  id="tag" onclick="changeTitle(), makeItClickable()">This is the title of the page</h1>
+    <h2 class="myHeading" onclick="addClassToTitle()">This is the subtitle of the page</h2>
+    <h3 id="inputRes" > here will come input's value </h3>
+  </div>
+  <div>
+    <h3 id="onLoad"> this text shoudl be change after load</h3>
+  </div>
+  <div>
+    <hr />
+
+    <ul id="firstList" onclick="fistUlDisappear(), paintItGreen()">
+      <li>click  to remove</li>
+      <li>click  to remove</li>
+      <li>click  to remove</li>
+    </ul>
+
+    <ul id="secondList" >
+      <li onclick=" addToTheSecond()" >1st</li>
+      <li onclick=" addToTheSecond()">2nd</li>
+      <li onclick=" addToTheSecond()">3rd</li>
+    </ul>
+
+    <a href="https://epicode.it" >This link goes to Epicode</a>
+    <button onclick="chanegUrls()">
+        Click Here!
+    </button>
+
+    <div id="parentDiv">
+        <p id="childDiv" onclick="changePcontent()">This text is just for the exercise</p>
+      </div>
+
+    <div>
+      <input type="text" onclick="changeHeader()"  autocomplete="off" id="input-field" placeholder="input field for the exercise" />
+    </div>
+  </div>
+
+  <div>
+    <p id="addP" onclick="addParagraph()" > And this text is just for the exercise too!</p>
+    
+    <footer id="footer">
+        <h4 onclick="changeFooterText()"> this is a footer </h4>
+      </footer>
+
+      <h2 style="color: red">
+        Save this page on your computer and open it with VSCode to get the
+        questions!
+      </h2>
+  </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
